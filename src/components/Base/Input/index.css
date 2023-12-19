@@ -1,0 +1,48 @@
+.inputWrapper {
+  display: block;
+  width: 100%;
+  margin-bottom: 1rem;
+}
+
+.inputWrapper.hasError .input {
+  border-color: var(--strawnberry-red);
+}
+
+.input {
+  color: var(--marine-blue);
+  padding: 0.8rem 0.8rem;
+  border-radius: 5px;
+  border: 1px solid var(--light-gray);
+  width: 100%;
+}
+
+.input::placeholder {
+  color: var(--cool-gray);
+  font-family: var(--font-medium);
+  font-weight: var(--font-weight-regular);
+}
+
+.input:focus,
+.input:active {
+  border-color: var(--marine-blue);
+  outline: none;
+}
+
+.label {
+  display: block;
+  width: 100%;
+  margin-bottom: 0.5rem;
+  color: var(--marine-blue);
+  font-size: 0.8rem;
+}
+
+.errorLabel {
+  text-align: right;
+  color: var(--strawnberry-red);
+  font-weight: var(--font-weight-bold);
+}
+
+.inputHeader {
+  display: flex;
+  justify-content: space-between;
+}

@@ -1,0 +1,21 @@
+.mainSteps {
+  width: 100%;
+  display: flex;
+}
+
+.mainStepsWrapper {
+  width: 100%;
+  padding: 2rem 5rem 1rem 7rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.stepActions {
+  margin-top: 8rem;
+  margin-bottom: 1rem;
+}
+
+.step-content {
+  flex: 1;
+}

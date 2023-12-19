@@ -1,0 +1,136 @@
+@font-face {
+  font-family: "Ubuntu-Regular";
+  src: url("./assets/fonts/Ubuntu-Regular.ttf");
+}
+
+@font-face {
+  font-family: "Ubuntu-Medium";
+  src: url("./assets/fonts/Ubuntu-Medium.ttf");
+}
+
+@font-face {
+  font-family: "Ubuntu-Bold";
+  src: url("./assets/fonts/Ubuntu-Bold.ttf");
+}
+
+:root {
+  --marine-blue: hsl(213, 96%, 18%);
+  --marine-blue-darker: hsl(212, 100%, 20%);
+  --purplish-blue: hsl(243, 100%, 62%);
+  --pastel-blue: hsl(228, 100%, 84%);
+  --light-blue: hsl(206, 94%, 87%);
+  --strawnberry-red: hsl(354, 84%, 57%);
+
+  --cool-gray: hsl(231, 11%, 63%);
+  --light-gray: hsl(229, 24%, 87%);
+  --magnolia: hsl(217, 100%, 97%);
+  --alabaster: hsl(231, 100%, 99%);
+  --white: hsl(0, 0%, 100%);
+
+  --font-regular: "Ubuntu-Regular";
+  --font-medium: "Ubuntu-Medium";
+  --font-bold: "Ubuntu-Bold";
+
+  --font-weight-light: 400;
+  --font-weight-regular: 500;
+  --font-weight-bold: 700;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: var(--font-regular);
+}
+
+body {
+  font-size: 16px;
+  background-color: var(--magnolia);
+}
+
+.mb-small {
+  margin-bottom: 0.5rem !important;
+}
+.mb-medium {
+  margin-bottom: 1rem !important;
+}
+.mb-large {
+  margin-bottom: 2rem !important;
+}
+
+.mb-xlarge {
+  margin-bottom: 4rem;
+}
+
+.mt-small {
+  margin-top: 0.5rem;
+}
+.mt-medium {
+  margin-top: 1rem;
+}
+.mt-large {
+  margin-top: 2rem;
+}
+
+.flex {
+  display: flex;
+}
+.block {
+  display: block;
+}
+
+.flex-start {
+  justify-content: flex-start;
+}
+.flex-end {
+  justify-content: flex-end;
+}
+
+.space-between {
+  justify-content: space-between;
+}
+
+.align-left {
+  margin-right: auto;
+}
+
+.align-right {
+  margin-left: auto;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.selectCardWrapper {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 20px;
+  row-gap: 20px;
+}
+
+.selectCardWrapper.verticalAlign {
+  flex-direction: column;
+}
+
+.optionItem {
+  flex: 1;
+  cursor: pointer;
+  border-radius: 5px;
+  border: 1px solid var(--light-gray);
+  background-color: var(--white);
+  transition: 0.1s all ease;
+}
+
+.optionItem:hover {
+  border-color: var(--purplish-blue);
+}
+
+.optionItem.active {
+  border-color: var(--purplish-blue);
+  background-color: var(--alabaster);
+}
+
+.optionItemWrapper {
+  padding: 1rem;
+}

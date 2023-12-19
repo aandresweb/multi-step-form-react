@@ -1,0 +1,45 @@
+.sidebarStepsWrapper {
+  display: flex;
+  flex-direction: column;
+  row-gap: 40px;
+}
+
+.sidebarStepWrapper {
+  display: flex;
+  align-items: center;
+  column-gap: 20px;
+}
+.sidebarStepNumber.active span {
+  background-color: var(--light-blue);
+  border: 1px solid transparent;
+  color: #000;
+}
+.sidebarStepNumber span {
+  width: 35px;
+  height: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  border: 1px solid #fff;
+  font-family: var(--font-bold);
+  color: #fff;
+}
+
+.sidebarStepInfo > span {
+  display: block;
+  text-transform: uppercase;
+}
+
+.sidebarStepInfo .sidebarStepInfoStep {
+  color: var(--light-gray);
+  font-size: 0.7rem;
+  margin-bottom: 0.2rem;
+}
+
+.sidebarStepInfo .sidebarStepInfoTitle {
+  color: var(--white);
+  font-family: var(--font-bold);
+  font-size: 0.9rem;
+  letter-spacing: 0.5px;
+}

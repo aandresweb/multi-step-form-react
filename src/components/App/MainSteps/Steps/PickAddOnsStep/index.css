@@ -1,0 +1,43 @@
+.pickAddOnsOptionsWrapper {
+  display: flex;
+  flex-direction: row;
+  column-gap: 20px;
+}
+.pickAddOnsOptionsWrapper > div {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+.pickAddOnsOptionsName {
+  color: var(--marine-blue);
+  font-family: var(--font-medium);
+  display: block;
+  margin-bottom: 0.2rem;
+}
+.pickAddOnsOptionsTexts {
+  flex-direction: column;
+  flex: 1;
+  align-items: flex-start !important;
+}
+.pickAddOnsOptionsPrice {
+  color: var(--purplish-blue);
+  font-size: 0.9rem;
+}
+
+.checkmark {
+  border-radius: 5px;
+  border: 1px solid var(--cool-gray);
+  height: 20px;
+  width: 20px;
+  display: flex;
+}
+.checkmarkWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+}
+.optionItem.active .checkmark {
+  background-color: var(--purplish-blue);
+  border: none;
+}

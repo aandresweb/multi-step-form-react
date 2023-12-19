@@ -1,0 +1,7 @@
+.text {
+  font-size: 1rem;
+  font-family: var(--font-weight-regular);
+  font-weight: var(--font-weight-regular);
+  color: var(--cool-gray);
+  line-height: 1.5;
+}

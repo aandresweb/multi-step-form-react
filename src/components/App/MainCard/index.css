@@ -1,0 +1,12 @@
+.mainCard {
+  display: flex;
+  background-color: #fff;
+  border-radius: 10px;
+  width: 100%;
+  max-width: 920px;
+  min-height: 680px;
+  padding: 1%;
+  box-shadow: 0px 4px 16px -12px rgba(219, 219, 219, 0.75);
+  -webkit-box-shadow: 0px 4px 16px -12px rgba(219, 219, 219, 0.75);
+  -moz-box-shadow: 0px 4px 16px -12px rgba(219, 219, 219, 0.75);
+}

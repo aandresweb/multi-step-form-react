@@ -1,0 +1,30 @@
+.button {
+  cursor: pointer;
+  padding: 1rem 2rem;
+  background-color: var(--marine-blue);
+  border: none;
+  border-radius: 8px;
+  color: var(--white);
+  font-size: 1rem;
+  transition: 0.1s all ease;
+}
+
+.button:hover {
+  background-color: var(--marine-blue-darker);
+  box-shadow: -1px -1px 39px -4px rgba(189, 189, 189, 0.75);
+  -webkit-box-shadow: -1px -1px 39px -4px rgba(189, 189, 189, 0.75);
+  -moz-box-shadow: -1px -1px 39px -4px rgba(189, 189, 189, 0.75);
+}
+
+.button.outline {
+  background-color: transparent;
+  color: var(--cool-gray);
+  padding-left: 0;
+  padding-right: 0;
+  font-size: var(--font-medium);
+  box-shadow: none;
+}
+
+.button.outline:hover {
+  color: var(--marine-blue);
+}

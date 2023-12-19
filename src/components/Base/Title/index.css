@@ -1,0 +1,7 @@
+.title {
+  font-size: 2rem;
+  color: var(--marine-blue);
+  font-family: var(--font-bold);
+  font-weight: var(--font-weight-bold);
+  margin-bottom: 0.5rem;
+}

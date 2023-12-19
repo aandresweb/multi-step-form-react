@@ -1,0 +1,36 @@
+.summary-main {
+  background-color: var(--alabaster);
+  padding: 2rem;
+}
+.summary-total {
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.summary-row {
+  display: flex;
+  justify-content: space-between;
+}
+.summary-row:not(:last-child) {
+  padding-bottom: 1rem;
+}
+
+.summary-text.bold {
+  font-family: var(--font-medium);
+  color: var(--marine-blue);
+  margin-bottom: 0.2rem;
+}
+.summary-price.bold {
+  font-family: var(--font-bold);
+}
+.summary-total-price.bold {
+  font-family: var(--font-bold);
+  color: var(--purplish-blue);
+  font-size: 1.2rem;
+}
+.summary-price {
+  color: var(--marine-blue);
+}
+.summary-button {
+}

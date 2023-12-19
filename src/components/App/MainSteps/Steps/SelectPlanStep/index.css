@@ -1,0 +1,35 @@
+.selectPlanOptionImg {
+  margin-bottom: 3rem;
+}
+
+.selectPlanOptionTitle {
+  color: var(--marine-blue);
+  font-family: var(--font-medium);
+  display: block;
+  margin-bottom: 0.2rem;
+}
+
+.selectPlanOptionPrice {
+  color: var(--cool-gray);
+  font-size: 0.9rem;
+}
+
+.period {
+  background-color: var(--alabaster);
+  padding: 1rem 2rem;
+  border-radius: 10px;
+}
+
+.periodWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 20px;
+}
+
+.periodLabel {
+  font-family: var(--font-medium);
+  color: var(--cool-gray);
+}
+.periodLabel.active {
+}

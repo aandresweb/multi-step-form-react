@@ -8,3 +8,14 @@
   background-size: cover;
   padding: 2rem 1.8rem;
 }
+
+@media (max-width: 750px) {
+  .sidebar {
+    max-width: 100%;
+    background-image: url("../../../assets/images/bg-sidebar-mobile.svg");
+    object-fit: cover;
+    border-radius: 0;
+    padding-top: 2rem;
+    padding-bottom: 8rem;
+  }
+}

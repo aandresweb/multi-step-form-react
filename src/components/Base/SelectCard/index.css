@@ -3,3 +3,10 @@
   font-size: 12px;
   color: var(--marine-blue);
 }
+
+@media (max-width: 740px) {
+  .selecPlanOption {
+    display: flex;
+    column-gap: 1.5rem;
+  }
+}

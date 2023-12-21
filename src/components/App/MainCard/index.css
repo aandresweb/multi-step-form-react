@@ -10,3 +10,22 @@
   -webkit-box-shadow: 0px 4px 16px -12px rgba(219, 219, 219, 0.75);
   -moz-box-shadow: 0px 4px 16px -12px rgba(219, 219, 219, 0.75);
 }
+
+.stepActionsResponsive .stepActions {
+  display: none;
+}
+
+@media (max-width: 750px) {
+  .mainCard {
+    flex-direction: column;
+    padding: 0;
+    box-shadow: none;
+    min-height: 100vh;
+  }
+
+  .stepActionsResponsive .stepActions {
+    display: flex;
+    margin: 0;
+    padding: 1rem 1.5rem;
+  }
+}

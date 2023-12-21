@@ -41,11 +41,13 @@ function SelectCard({ className, options, onSelectCard, selectedOption }) {
         <div className="optionItemWrapper">
           <div className="selecPlanOption">
             <img className="selectPlanOptionImg" src={icon} alt="" />
-            <p className="selectPlanOptionTitle">{title}</p>
-            <p className="selectPlanOptionPrice">${priceOption}</p>
-            <p className="selectPlanOptionYearlyMessage">
-              {yearlyMessageOption}
-            </p>
+            <div className="selectPlanOptionBody">
+              <p className="selectPlanOptionTitle">{title}</p>
+              <p className="selectPlanOptionPrice">${priceOption}</p>
+              <p className="selectPlanOptionYearlyMessage">
+                {yearlyMessageOption}
+              </p>
+            </div>
           </div>
         </div>
       </div>

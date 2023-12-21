@@ -134,3 +134,13 @@ body {
 .optionItemWrapper {
   padding: 1rem;
 }
+
+@media (max-width: 730px) {
+  .selectCardWrapper {
+    gap: 0.5rem;
+    flex-direction: column;
+  }
+  .optionItem {
+    margin-bottom: 1rem !important;
+  }
+}

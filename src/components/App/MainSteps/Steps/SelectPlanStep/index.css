@@ -33,3 +33,9 @@
 }
 .periodLabel.active {
 }
+
+@media (max-width: 730px) {
+  .selectPlanOptionImg {
+    margin-bottom: 0;
+  }
+}

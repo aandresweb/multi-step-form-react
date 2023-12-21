@@ -5,3 +5,11 @@
   min-height: 100vh;
   padding: 0 5%;
 }
+
+@media (max-width: 750px) {
+  .main {
+    padding: 0;
+
+    align-items: flex-start;
+  }
+}

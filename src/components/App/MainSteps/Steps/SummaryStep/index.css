@@ -34,3 +34,10 @@
 }
 .summary-button {
 }
+
+@media (max-width: 720px) {
+  .summary-main,
+  .summary-total {
+    padding: 1rem;
+  }
+}
